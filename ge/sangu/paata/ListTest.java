@@ -7,6 +7,9 @@ import java.util.List;
  * Created by 201 on 10/6/2016.
  */
 public class ListTest {
-    List<String> sia = new ArrayList<String>();
-    sia.add("paata");
+
+    public static void main(String[] args) {
+        List<String> sia = new ArrayList<String>();
+        sia.add("paata");
+    }
 }
