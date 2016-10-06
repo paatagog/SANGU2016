@@ -8,4 +8,5 @@ import java.util.List;
  */
 public class ListTest {
     List<String> sia = new ArrayList<String>();
+    sia.add("paata");
 }
