@@ -50,6 +50,16 @@ public class Davaleba_2 {
 
 
 
+        // Set
+
+        set.addAll(list1);
+        for (int i : list2) set.add(i);
+
+        System.out.println("set:" + set);
+
+
+
+
 
 
 
