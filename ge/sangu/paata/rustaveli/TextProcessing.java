@@ -13,6 +13,32 @@ import java.util.List;
  */
 public class TextProcessing {
 
+    public List<String> removeGarbage(List<String> rawList) {
+
+        List<String> strofebi = new ArrayList<String>();
+
+        int strofi = 1;
+        for (int i = 0; i < rawList.size(); i++) {
+            if (rawList.get(i).trim().equals(String.valueOf(strofi))) {
+                if (i + 4 < rawList.size()
+                        && rawList.get(i + 1).length() > 30
+                        && rawList.get(i + 2).length() > 30
+                        && rawList.get(i + 3).length() > 30
+                        && rawList.get(i + 4).length() > 30) {
+                    //strofebi.add(String.valueOf(strofi));
+                    strofebi.add(rawList.get(i + 1));
+                    strofebi.add(rawList.get(i + 2));
+                    strofebi.add(rawList.get(i + 3));
+                    strofebi.add(rawList.get(i + 4));
+                    i += 4;
+                    strofi ++;
+                }
+            }
+        }
+        return strofebi;
+
+    }
+
     public static void main(String[] args) {
         try {
             URI uri = TextProcessing.class.getResource("./data/data.txt").toURI();
