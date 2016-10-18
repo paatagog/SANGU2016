@@ -1,4 +1,4 @@
-package ge.sangu.Nikoloz_Astamidze;
+package ge.sangu.nikoloz.homework;
 
 import java.util.ArrayList;
 import java.util.HashSet;

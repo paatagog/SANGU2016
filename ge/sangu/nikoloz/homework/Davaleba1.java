@@ -1,4 +1,4 @@
-package ge.sangu.Nikoloz_Astamidze;
+package ge.sangu.nikoloz.homework;
 
 /**
  * Created by Nikoloz on 10/12/2016.
