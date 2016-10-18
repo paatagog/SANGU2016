@@ -27,7 +27,8 @@ public class TextProcessing {
             int strofi = 1;
             for (int i = 0; i < striqonebi.size(); i++) {
                 if (striqonebi.get(i).trim().equals(String.valueOf(strofi))) {
-                    if (i + 4 < striqonebi.size() && striqonebi.get(i+1).length() > 30
+                    if (i + 4 < striqonebi.size()
+                            && striqonebi.get(i + 1).length() > 30
                             && striqonebi.get(i + 2).length() > 30
                             && striqonebi.get(i + 3).length() > 30
                             && striqonebi.get(i + 4).length() > 30) {
