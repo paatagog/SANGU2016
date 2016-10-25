@@ -16,7 +16,7 @@ public class Davaleba3 {
         String fileName = "./1.txt";
         List<String> parsedText = new ArrayList<>();
         try {
-            URI uri =getResource(fileName).toURI();
+            URI uri =Davaleba3.class.getResource(fileName).toURI();
             List<String> striqonebi = Files.readAllLines(Paths.get(uri),
                     Charset.defaultCharset());
 
