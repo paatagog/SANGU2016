@@ -1,4 +1,4 @@
-package ge.sangu.nikoloz.classwork.work3;
+package ge.sangu.nikoloz.homework;
 
 import java.net.URI;
 import java.nio.charset.Charset;
@@ -10,13 +10,13 @@ import java.util.List;
 /**
  * Created by Nikoloz on 10/13/2016.
  */
-public class TextProcessing {
+public class Davaleba3 {
     public static void main(String[] args) {
 
         String fileName = "./1.txt";
         List<String> parsedText = new ArrayList<>();
         try {
-            URI uri = TextProcessing.class.getResource(fileName).toURI();
+            URI uri =getResource(fileName).toURI();
             List<String> striqonebi = Files.readAllLines(Paths.get(uri),
                     Charset.defaultCharset());
 

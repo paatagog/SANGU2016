@@ -1,4 +1,4 @@
-package ge.sangu.nikoloz.classwork;
+package ge.sangu.nikoloz.classwork.textprocessing;
 
 import java.net.URI;
 import java.nio.charset.Charset;
