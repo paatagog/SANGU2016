@@ -16,9 +16,6 @@ public class PainterTest {
         Triangle t = new Triangle();
         ps.paint(r);
         ps.paint(t);
-
-
-
-
+        System.out.println(1);
     }
 }
