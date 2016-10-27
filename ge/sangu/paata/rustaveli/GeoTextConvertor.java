@@ -10,10 +10,10 @@ import java.util.regex.Pattern;
  */
 public class GeoTextConvertor {
 
-    public static final int GEO_UNICODE_BEGIN = 0x10D0;
-    public static final int GEO_UNICODE_MTAVRULI_BEGIN = 0x10A0;
+    private static final int GEO_UNICODE_BEGIN = 0x10D0;
+    private static final int GEO_UNICODE_MTAVRULI_BEGIN = 0x10A0;
 
-    public static List<String> eng = new ArrayList<String>(Arrays.asList("a", "b", "g", "d", "e", "v", "z", "T", "i", "k", "l", "m", "n", "o", "p", "J", "r", "s", "t", "u", "f", "q", "R", "y", "S", "C", "c", "Z", "w", "W", "x", "j", "h"));
+    private static List<String> eng = new ArrayList<String>(Arrays.asList("a", "b", "g", "d", "e", "v", "z", "T", "i", "k", "l", "m", "n", "o", "p", "J", "r", "s", "t", "u", "f", "q", "R", "y", "S", "C", "c", "Z", "w", "W", "x", "j", "h"));
 
     public static String getGeoUnicodeChar(int i) {
         return String.valueOf((char) (GEO_UNICODE_BEGIN + i));

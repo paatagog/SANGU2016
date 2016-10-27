@@ -3,7 +3,7 @@ package ge.sangu.kavtaradze.Tringle;
 /**
  * Created by guga on 26.10.2016.
  */
-public class TringleMain {
+public class TriangleMain {
     public static void main(String[] args) {
         TringleClass t = new TringleClass();
 
