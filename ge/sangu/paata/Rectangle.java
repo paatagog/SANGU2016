@@ -5,7 +5,7 @@ import org.w3c.dom.css.Rect;
 /**
  * Created by 201 on 10/25/2016.
  */
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
 
     public Rectangle (double ax, double ay, double bx, double by, double cx, double cy, double dx, double dy) {
         this.ax = ax;
@@ -20,6 +20,10 @@ public class Rectangle extends Shape {
 
     public Rectangle() {
         this.ax = 7;
+    }
+
+    public void paint() {
+        System.out.println("იხატება ოთხკუთხედი");
     }
 
     private double ax;

@@ -7,7 +7,7 @@ import java.awt.font.ShapeGraphicAttribute;
 /**
  * Created by guga on 26.10.2016.
  */
-public class Triangle extends Shape {
+public class Triangle implements Shape {
 
     private double ax, ay;
     private double bx, by;
@@ -72,5 +72,9 @@ public class Triangle extends Shape {
 
 
         return Math.sqrt( p*(p - a)*(p - b)*(p-c) );
+    }
+
+    public void paint() {
+        System.out.println("იბეჭდება სამკუთხედის შესაბამისი ფუნქცია");
     }
 }
