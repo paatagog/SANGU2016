@@ -1,9 +1,13 @@
 package ge.sangu.kavtaradze.Tringle;
 
+import ge.sangu.paata.Shape;
+
+import java.awt.font.ShapeGraphicAttribute;
+
 /**
  * Created by guga on 26.10.2016.
  */
-public class Triangle {
+public class Triangle extends Shape {
 
     private double ax, ay;
     private double bx, by;

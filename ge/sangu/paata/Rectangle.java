@@ -1,11 +1,26 @@
 package ge.sangu.paata;
 
+import org.w3c.dom.css.Rect;
+
 /**
  * Created by 201 on 10/25/2016.
  */
-public class Rectangle {
+public class Rectangle extends Shape {
 
+    public Rectangle (double ax, double ay, double bx, double by, double cx, double cy, double dx, double dy) {
+        this.ax = ax;
+        this.ay = ay;
+        this.bx = bx;
+        this.by = by;
+        this.cx = cx;
+        this.cy = cy;
+        this.dx = dx;
+        this.dy = dy;
+    }
 
+    public Rectangle() {
+        this.ax = 7;
+    }
 
     private double ax;
     private double ay;

@@ -14,6 +14,8 @@ public class ClassTest {
         r.setCy(4.5);
         r.setDx(4.5);
         r.setDy(7.5);
+        ColorRectangle cr = new ColorRectangle();
+
         System.out.println(r.perimeter());
     }
 }
