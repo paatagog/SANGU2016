@@ -5,7 +5,7 @@ package ge.sangu.kavtaradze.Tringle;
  */
 public class TriangleMain {
     public static void main(String[] args) {
-        TringleClass t = new TringleClass();
+        Triangle t = new Triangle();
 
         t.setAx(0);
         t.setAy(0);

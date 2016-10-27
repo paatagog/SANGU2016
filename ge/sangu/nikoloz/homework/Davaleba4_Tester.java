@@ -13,8 +13,8 @@ public class Davaleba4_Tester {
         tringle.setCx(2);
         tringle.setCy(7);
 
-        System.out.println("Tringle Perimeter: " + tringle.GetPerimeter());
-        System.out.println("Tringle Area: " + tringle.GetArea());
+        System.out.println("Triangle Perimeter: " + tringle.GetPerimeter());
+        System.out.println("Triangle Area: " + tringle.GetArea());
 
     }
 }

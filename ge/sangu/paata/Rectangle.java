@@ -5,6 +5,8 @@ package ge.sangu.paata;
  */
 public class Rectangle {
 
+
+
     private double ax;
     private double ay;
     private double bx;

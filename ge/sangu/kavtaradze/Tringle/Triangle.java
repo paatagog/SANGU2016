@@ -3,7 +3,7 @@ package ge.sangu.kavtaradze.Tringle;
 /**
  * Created by guga on 26.10.2016.
  */
-public class TringleClass {
+public class Triangle {
 
     private double ax, ay;
     private double bx, by;
