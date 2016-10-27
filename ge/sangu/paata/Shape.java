@@ -5,6 +5,6 @@ package ge.sangu.paata;
  */
 public class Shape {
     public void paint() {
-        System.out.println("იხატება ფიგურა222");
+        System.out.println("იხატება ფიგურა111");
     }
 }
