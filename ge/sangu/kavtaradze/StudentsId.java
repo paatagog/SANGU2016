@@ -16,8 +16,9 @@ public class StudentsId {
         List<String> idList = new ArrayList<>();
 
         for (String line : list) {
-            String id = line.replaceAll("[^0-9]+", " ");
-            idList.add(Arrays.asList(id.trim().split(" ")).get(0));
+            String id = line.replaceAll("[^0-9]+", "");
+            System.out.println(id);
+            idList.add(id);
         }
         return idList;
     }
@@ -37,7 +38,5 @@ public class StudentsId {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 }
