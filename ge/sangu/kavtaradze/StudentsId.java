@@ -17,7 +17,6 @@ public class StudentsId {
 
         for (String line : list) {
             String id = line.replaceAll("[^0-9]+", "");
-            System.out.println(id);
             idList.add(id);
         }
         return idList;
@@ -33,6 +32,7 @@ public class StudentsId {
 
             idNumbers.addAll(processingList(file1));
             idNumbers.addAll(processingList(file2));
+            
             System.out.println(idNumbers);
 
         } catch (Exception e) {
