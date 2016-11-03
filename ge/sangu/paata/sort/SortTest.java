@@ -1,4 +1,4 @@
-package ge.sangu.paata.rustaveli.sort;
+package ge.sangu.paata.sort;
 
 import java.util.ArrayList;
 import java.util.Arrays;
